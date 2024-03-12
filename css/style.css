@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* Cambié la fuente a 'Montserrat' */
+    background-color: whitesmoke;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#navbarSupportedContent {
+    width: 100px;
+}
+
+.navbar {
+    color: rgb(122, 42, 13);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar a {
+
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+section {
+    min-height: 90vh;
+    padding: 30px;
+    /* Aumentamos el relleno interno para más espacio dentro de cada sección */
+    margin-bottom: 30px;
+    /* Aumentamos el margen inferior para separar más las secciones */
+    background-color: #fff;
+    /* Fondo blanco para las secciones */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+}
+
+section h2 {
+    font-size: 24px;
+    /* Tamaño de fuente para los títulos de sección */
+    margin-bottom: 10px;
+    /* Margen inferior para separar el título del contenido */
+}
+
+#nuestroPrograma h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#inicio {
+    padding: 50px 0;
+    background-color: whitesmoke;
+}
+
+.inicio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.texto {
+    width: 50%;
+    font-size: 4rem;
+}
+
+image img {
+    max-width: 117%;
+    height: 20%;
+    display: block;
+    margin-left: -30%;
+    border-radius: 98%;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.inicio-section .texto h1 {
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+.h3,
+h3 {
+    font-size: 2.75rem;
+    margin-top: 5%;
+    color: #35178d;
+}
+
+section h2 {
+    font-size: 63px;
+    margin-bottom: 17px;
+    margin-top: 0%;
+}
+
+/*Arreglos chat*/
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#listado-ciudadanos {
+    display: none;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+
+/* Botón para volver al formulario */
+#listado-ciudadanos button {
+    margin-top: 20px;
+    background-color: #dc3545;
+}
+
+#listado-ciudadanos button:hover {
+    background-color: #c82333;
+}
+
+#nuestroPrograma {
+    background-color: rgb(103, 151, 192);
+}
+
+#ingresoCiudadanos {
+    background-color: rgb(81, 147, 204);
+}
+
+#reconocimiento-adn {
+    background-color: rgb(81, 147, 204);
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#nuestroPrograma h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#nuestroPrograma p {
+    font-size: 2rem;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#nuestroPrograma {
+    background-image: url('https://media.istockphoto.com/id/535428541/es/foto/el-adn.jpg?b=1&s=612x612&w=0&k=20&c=SGy0_mk1t_z1XNQbpNYlB_RfU2RQYjj085foU_oUS-0=');
+    background-size: 100% auto;
+    background-color: rgba(161, 34, 34, 0.8);
+    filter: brightness(100%);
+}
+
+#contenedor {
+    min-height: 90vh;
+}
+
+#contenedor,
+button {
+    text-align: center;
+    margin: 5%;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de reconocimiento de Adn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img id="initiallogo" src="" class="img-fluid" alt="">
+                <span>Reconocimiento de Adn</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ml-auto mb-2 container-fluid">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="Periods" class="nav-link" href="#nuestroPrograma">Nuestro programa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="Programs" class="nav-link" href="#ingresoCiudadanos">Ingreso de ciudadanos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="Fees" class="nav-link" href="#reconocimiento-adn">Reconocimiento de Adn</a>
+                    </li>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <section id="inicio" class="inicio-section">
+        <div class="inicio-container">
+            <div class="texto">
+                <h2>Departamento de policia nacional</h2>
+                <h3>Sistema de reconocimiento de Adn</h3>
+            </div>
+            <div class="image">
+                <img src="img/descarga.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="nuestroPrograma">
+        <h2>Sistema de reconocimiento de Adn</h2>
+        <p> En conjunto con el departamento de policia nacional nos encargamos de realizar pruebas eficaces y exactas para determinar el
+            porcentaje de incidencia
+            de muestras de Adn en nuestras bases de datos. 
+        </p>
+        
+    </section>
+
+    <section id="ingresoCiudadanos">
+        <h2> Ciudadanos</h2>
+        <div id="Listado-ciudadanos"></div>
+        <div id="ciudadanos-crear"></div>
+    </section>
+
+    <div id="contenedor">
+        <h2>Comparador de ADN</h2>
+        <p> Porfavor tenga lista la secuencia de Adn del posible implicado.Esta debe ser en numero binarios. Dale click
+            al boton.</p>
+        <button id="verifyBtn" onclick="cargarFormularioADN()">Ingreso a nuestro programa calculador de ADN</button>
+        <p id="result"></p>
+    </div>
+
+
+</body>
+<script src="js/utils.js"></script>
+<script src="js/ciudadanos.js"></script>
+<script src="js/adn.js"></script>
+<script src="js/app.js"></script>
+
+</html>
